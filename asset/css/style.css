@@ -1,0 +1,135 @@
+/* BODY */
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+	width: 100%;
+	background: #d2d2d2;
+}
+
+/* NAV */
+
+nav {
+	background: #333;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+	font-family: Arial, sans-serif;
+	letter-spacing: 1px;
+	font-size: 0.9rem;
+}
+
+#nav-ul {
+	padding: 0.1vw;
+	width: 55%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-a {
+	color: white;
+	padding: 0.5vw;
+	width: 60%;
+	margin: auto;
+	text-decoration: none;
+}
+
+.nav-a:hover {
+	color: grey;
+}
+
+/* MAIN */
+
+#main {
+	width: 55%;
+	margin: 5vw auto 2vw auto;
+	background: white;
+	border-radius: 7px;
+	box-shadow: 1px 1px 10px lightgrey;
+	padding: 5vw;
+}
+
+#image {
+	max-width: 20%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+h1, h2, h3, h4, #img-caption {
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	width: 70%;
+	margin: auto;
+	color: #333;
+}
+
+#tribute-info {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 4em;
+	color: #333;
+}
+
+hr {
+	width: 80%;
+	border: 0.5px solid lightgrey;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#title {
+	font-size: 50px;
+}
+
+#img-caption {
+	font-size: 1.1rem;
+	font-style: italic;
+	color: pink;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+/* FOOTER */
+
+#footer {
+	text-align: center;
+	padding-top: 2%;
+}
+
+#footer>p {
+	margin: auto;
+	font-weight: bold;
+}
+
+.title-footer {
+	font-size: 35px;
+	margin-bottom: -4%;
+}
+
+.title-date {
+	margin-top: 5%;
+	font-size: 25px;
+}
+
+/* LOGO */
+
+#logo-marylin {
+	width: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+#tribute-link {
+	font-weight: bold;
+	color: pink;
+}
